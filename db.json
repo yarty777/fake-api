@@ -1,10 +1,13 @@
 {
-  "users": [
-    { "id": 1, "name": "Alice", "email": "alice@example.com", "role": "admin" },
-    { "id": 2, "name": "Bob", "email": "bob@example.com", "role": "user" }
+  "students": [
+    { "id": 1, "firstName": "Іван", "lastName": "Петренко", "email": "ivan.petrenko@example.com", "grade": 9 },
+    { "id": 2, "firstName": "Олена", "lastName": "Коваль", "email": "olena.koval@example.com", "grade": 8 }
   ],
-  "posts": [
-    { "id": 1, "title": "Hello REST", "userId": 1, "tags": ["intro","rest"] },
-    { "id": 2, "title": "JSON Tips", "userId": 2, "tags": ["json"] }
+  "teachers": [
+    { "id": 1, "name": "Сергій Шевченко", "email": "s.shevchenko@example.com" }
+  ],
+  "clubs": [
+    { "id": 1, "name": "Робототехніка", "teacherId": 1, "maxMembers": 20, "schedule": "Пн 15:00" },
+    { "id": 2, "name": "Хімічний гурток", "teacherId": 1, "maxMembers": 15, "schedule": "Ср 16:00" }
   ]
 }
